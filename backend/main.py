@@ -45,7 +45,7 @@ def fill(tpl: str, **kw: str) -> str:
     return tpl
 
 
-def call_gemini(contents: Any, json_mode: bool = False, retries: int = 2):
+def call_gemini(contents: Any, json_mode: bool = False, retries: int = 4):
     cfg = types.GenerateContentConfig(response_mime_type="application/json") if json_mode else None
     last = None
     for attempt in range(retries + 1):
@@ -56,7 +56,7 @@ def call_gemini(contents: Any, json_mode: bool = False, retries: int = 2):
             last = ex
             log.warning("Gemini attempt %d (%s) failed: %s", attempt + 1, model, ex)
             if attempt < retries:
-                time.sleep(2 ** attempt)
+                time.sleep(3 * (attempt + 1))
     raise last
 
 
