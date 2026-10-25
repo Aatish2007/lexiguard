@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ica-23",
+    "source": "Indian Contract Act, 1872",
+    "section": "Section 23",
+    "text": "The consideration or object of an agreement is lawful unless it is forbidden by law, is of such a nature that it would defeat the provisions of any law, is fraudulent, involves injury to the person or property of another, or is regarded by the court as immoral or opposed to public policy. Every agreement of which the object or consideration is unlawful is void."
+  },
+  {
+    "id": "ica-27",
+    "source": "Indian Contract Act, 1872",
+    "section": "Section 27",
+    "text": "Every agreement by which anyone is restrained from exercising a lawful profession, trade or business of any kind is, to that extent, void. Clauses that bar an employee from working in the same field after leaving a job are generally unenforceable after the end of employment."
+  },
+  {
+    "id": "ica-73",
+    "source": "Indian Contract Act, 1872",
+    "section": "Section 73",
+    "text": "When a contract has been broken, the party who suffers by the breach is entitled to receive compensation for any loss or damage caused to him naturally in the usual course of things, or which the parties knew when they made the contract to be likely to result from the breach. Compensation is not given for remote and indirect loss."
+  },
+  {
+    "id": "ica-74",
+    "source": "Indian Contract Act, 1872",
+    "section": "Section 74",
+    "text": "When a contract has been broken and a sum is named in the contract as the amount to be paid on breach, or the contract contains a penalty clause, the party complaining of the breach is entitled to reasonable compensation not exceeding the amount named or the penalty stated. A fixed forfeiture or penalty that is unreasonably high is not enforceable in full."
+  },
+  {
+    "id": "cpa-2-46",
+    "source": "Consumer Protection Act, 2019",
+    "section": "Section 2(46)",
+    "text": "'Unfair contract' means a contract between a manufacturer, trader or service provider and a consumer, having such terms which cause significant change in the rights of the consumer, including: excessive security deposits; imposing a penalty on the consumer for breach that is wholly disproportionate to the loss; refusing to accept early repayment of debts on payment of applicable penalty; entitling a party to terminate the contract unilaterally without reasonable cause; permitting assignment to the consumer's detriment without consent; or imposing unreasonable charges, obligations or conditions. NOTE: applies to consumer transactions with a trader or service provider; may not apply to a purely private residential tenancy."
+  },
+  {
+    "id": "tpa-106",
+    "source": "Transfer of Property Act, 1882",
+    "section": "Section 106",
+    "text": "In the absence of a contract or local law to the contrary, a lease of immovable property for agricultural or manufacturing purposes is deemed to be a lease from year to year, terminable by six months' notice. A lease for any other purpose is deemed to be a lease from month to month, terminable by fifteen days' notice. The notice must be in writing and signed by the party giving it."
+  },
+  {
+    "id": "reg-act-17-1-d",
+    "source": "Registration Act, 1908",
+    "section": "Section 17(1)(d)",
+    "text": "Leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent, require compulsory registration. A rent agreement for more than 11 months is commonly registered for this reason; an unregistered lease above one year is generally not admissible as proof of its terms."
+  },
+  {
+    "id": "ipc-420-bns-318-4",
+    "source": "IPC 1860 to Bharatiya Nyaya Sanhita, 2023",
+    "section": "IPC 420 / BNS 318(4)",
+    "text": "Cheating and dishonestly inducing delivery of property. Under the IPC this was Section 420; under the BNS (in force from 1 July 2024) it is Section 318(4). Punishment: imprisonment up to 7 years and fine. The offence is cognizable and non-bailable."
+  },
+  {
+    "id": "ipc-406-bns-316-2",
+    "source": "IPC 1860 to Bharatiya Nyaya Sanhita, 2023",
+    "section": "IPC 406 / BNS 316(2)",
+    "text": "Criminal breach of trust. Under the IPC this was Section 406; under the BNS it is Section 316(2). Punishment: imprisonment up to 5 years, or fine, or both. Example: a landlord or agent who dishonestly misuses a deposit or property entrusted to them."
+  },
+  {
+    "id": "ipc-506-bns-351",
+    "source": "IPC 1860 to Bharatiya Nyaya Sanhita, 2023",
+    "section": "IPC 506 / BNS 351",
+    "text": "Criminal intimidation. Under the IPC this was Section 506; under the BNS it is Section 351. Punishment under BNS 351(2): up to 2 years, or fine, or both. Under 351(3), threats of death, grievous hurt or similar serious harm: up to 7 years. Verify exact sub-section wording on the official text."
+  }
+]

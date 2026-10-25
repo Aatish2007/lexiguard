@@ -1,0 +1,6 @@
+{
+  "name": "LexiGuard - AI Indian Legal & Contract Assistant",
+  "description": "AI-powered legal assistant and contract risk analyzer for Indian citizens featuring multimodal document scanning, IPC-to-BNS mapping, voice drafting, and procedure navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

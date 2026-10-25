@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Palette: Paper tone, Deep Navy-Black ink, Vermilion stamp red, Warm grey neutrals */
+    --bg-paper: #F7F3EC;
+    --paper-card: #FFFFFF;
+    --paper-muted: #F1ECE1;
+    --border-paper: #E2DBD0;
+    --border-paper-strong: #C9C0B3;
+
+    --ink-primary: #14213D;
+    --ink-secondary: #4A5366;
+    --ink-muted: #767E8E;
+
+    --accent-stamp: #C8372D;
+    --accent-stamp-bg: #FBEBEA;
+    --accent-stamp-border: #E8B8B5;
+
+    /* Risk levels: muted red / ochre / olive */
+    --risk-high: #A83226;
+    --risk-high-bg: #FBECEB;
+    --risk-high-border: #E8B4B0;
+
+    --risk-ochre: #A96F15;
+    --risk-ochre-bg: #FBF4E8;
+    --risk-ochre-border: #E8D3AE;
+
+    --risk-olive: #3F5E36;
+    --risk-olive-bg: #F1F5EE;
+    --risk-olive-border: #BDD1B8;
+
+    /* Typography */
+    --font-serif: 'Source Serif 4', Georgia, serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'IBM Plex Mono', Menlo, Consolas, monospace;
+    --font-indic: 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Gujarati', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Gurmukhi', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-paper);
+    color: var(--ink-primary);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  .font-hindi,
+  .font-indic {
+    font-family: var(--font-indic);
+    line-height: 1.6;
+  }
+}
+
+/* Legal paper document rule & margins */
+.legal-margin-red {
+  border-left: 2px solid var(--accent-stamp);
+}
+
+.legal-stamp {
+  border: 1px solid var(--accent-stamp);
+  color: var(--accent-stamp);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Custom scrollbar - paper warm grey */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1ECE1;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9C0B3;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A89E90;
+}
