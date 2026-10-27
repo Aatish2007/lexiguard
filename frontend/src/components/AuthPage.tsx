@@ -47,8 +47,16 @@ export const AuthPage: React.FC = () => {
   };
 
   const validateEmail = (val: string) => {
-    return /\S+@\S+\.\S+/.test(val.trim());
-  };
+  return /^[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}$/.test(val.trim());
+};
+const passwordProblem = (val: string): string | null => {
+  if (val.length < 8) return 'Password must be at least 8 characters long.';
+  if (!/[a-z]/.test(val)) return 'Password must include a lowercase letter.';
+  if (!/[A-Z]/.test(val)) return 'Password must include an uppercase letter.';
+  if (!/[0-9]/.test(val)) return 'Password must include a number.';
+  if (!/[^A-Za-z0-9]/.test(val)) return 'Password must include a special character (e.g. @, #, !).';
+  return null;
+};
 
   const handleLoginSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -111,10 +119,11 @@ export const AuthPage: React.FC = () => {
       return;
     }
 
-    if (password.length < 8) {
-      setErrorMessage('Password must be at least 8 characters long.');
-      return;
-    }
+  const pwProblem = passwordProblem(password);
+  if (pwProblem) {
+    setErrorMessage(pwProblem);
+    return;
+}
 
     if (password !== confirmPassword) {
       setErrorMessage('Passwords do not match.');
